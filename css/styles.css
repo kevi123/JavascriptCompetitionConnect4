@@ -1,0 +1,127 @@
+/* .white-text{
+  color: #FFF;
+}
+
+.blue-bg {
+  background-color: #0000FF ;
+}
+
+.green-bg {
+  background-color: #00FF00;
+}
+
+.purple-text{
+  color: #FF00FF;
+}
+
+.giant-text{
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.image{
+  height: auto;
+  width: 100%;
+  display: block;
+} */
+
+/* This will display the thor comic image on the jumboTron */
+h1, h2, h3, h4, h5, h6 {
+    margin-top:10px;
+    margin: center;
+}
+.backgroundnone{
+  background-color: #000000aa;
+  /* color: #ffffff; */
+}
+
+.colorwhite{
+  color:#ffffff;
+  text-shadow: 0px 0px 10px #000000 ;
+}
+
+ /* body { */
+  /* opacity: 1; */
+  /* background-image: url("../img/bits.jpg"); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100% 100%;  /*width height*/ */
+  /* background-color: #ffffff; */
+
+}
+
+.space{
+  margin-top: 10px;
+}
+/* body div ul li{
+  color: white;
+} */
+
+.background{
+  background: black;
+}
+
+.backgroundBlue
+{
+  /* opacity:.5; */
+  background: darkblue;    /*this is the background for wach box*/
+  color: green;
+  text-shadow: 0px 0px 10px #000000;
+  font-size: 20px;
+}
+
+.backgroundWhite
+{
+  /* opacity:.5; */
+  background: none;
+  color: white;
+  text-shadow: 0px 0px 10px #000000;
+  font-size: 20px;
+}
+
+.bold {
+    font-size:16px;
+    font-weight: bold;
+}
+
+/* .navbar-brand{
+  image: url("img/college_pic.jpg");
+} */
+
+.hero {
+    height:300px;
+    background-image: url("../img/comic-thor.jpg");
+    background-size: cover;
+    background-position: center ;   /* This also changes size of centerimage displayed*/
+    text-align: center;
+    color: red;
+    text-shadow: 0px 0px 10px darkred; /*-horiz vert shadowsize color*/
+
+}
+
+.title{
+  font-size:40px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 0px 10px black; /*-horiz vert shadowsize color*/
+  margin-top: 100px
+}
+
+.projecttitle
+{
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+
+
+/* This makes the image vertical on the projects */
+.imgVertical {
+  image-orientation: from-image;
+}
+
+
+.centerImage{
+  text-align: center;
+}
