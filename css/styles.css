@@ -30,13 +30,23 @@ h1, h2, h3, h4, h5, h6 {
     margin-top:10px;
     margin: center;
 }
+
+.marginCenter{
+  margin: auto !important;
+  /* margin-right: 800px !important; */
+  /* padding-right: 300px !important; */
+}
+.paddingNone{
+  margin-right: 0px;
+}
+
 .backgroundnone{
   background-color: #000000aa;
   /* color: #ffffff; */
 }
 
 .colorwhite{
-  color:#ffffff;
+  color:black;
   text-shadow: 0px 0px 10px #000000 ;
 }
 
@@ -56,6 +66,11 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 } */
 
+.marginTest{
+  padding: 2px !important;/*This overrides bootstrap*/
+  /* margin: 5px !important; */
+}
+
 .background{
   background: black;
 }
@@ -68,7 +83,9 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0px 0px 10px #000000;
   font-size: 20px;
 }
-
+.backgroundChipWhite{
+  background-color: white;
+}
 .backgroundWhite
 {
   /* opacity:.5; */
@@ -102,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size:40px;
   text-align: center;
   font-weight: bold;
-  color: white;
+  color: darkred;
   text-shadow: 0px 0px 10px black; /*-horiz vert shadowsize color*/
   margin-top: 100px
 }
