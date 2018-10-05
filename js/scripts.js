@@ -17,12 +17,12 @@ console.log(body);
 // document.querySelectorAll("li")[1].innerHTML=userInputName1;
 
 
-row6=[0,0,0,0,0,0,0];
-row5=[0,0,0,0,0,0,0];
-row4=[0,0,0,0,0,0,0];
-row3=[0,0,0,0,0,0,0];
-row2=[0,0,0,0,0,0,0];
-row1=[0,0,0,0,0,0,0];
+rowF=[0,0,0,0,0,0,0];
+rowE=[0,0,0,0,0,0,0];
+rowD=[0,0,0,0,0,0,0];
+rowC=[0,0,0,0,0,0,0];
+rowB=[0,0,0,0,0,0,0];
+rowA=[0,0,0,0,0,0,0];
 
 
 // document.getElementById("column1").addEventListener("dblclick", sendToGrave1);
